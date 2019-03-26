@@ -1,5 +1,7 @@
 # Simple TCP/UDP client and server
 
+[![Build Status](https://travis-ci.com/mkvdv/protei_test.svg?branch=master)](https://travis-ci.com/mkvdv/protei_test)
+
 ## Requirements
 Programs require this libraries:
    * [Boost](https://www.boost.org/) library for dealing with **program options**

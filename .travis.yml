@@ -1,0 +1,20 @@
+language: cpp
+sudo: required
+dist: xenial
+compiler:
+  - gcc
+os:
+  - linux
+branches:
+  only:
+    - master
+before_install:
+  - mkdir  build
+addons:
+  apt:
+    packages:
+      - libboost-all-dev
+script:
+  - cd build
+  - cmake  ..
+  - cmake --build .
